@@ -1,3 +1,7 @@
-n = int(input("Enter how  many lines u want : "))
-for a in range(1, n+1):
-    print("+"*(n-a)+"*"*a)
+from Fitur.sum import calculate_sum
+
+A = int(input("Masukkan A: "))
+B = int(input("Masukkan B: "))
+
+sumResult = calculate_sum(A, B)
+print(f"Sum: {sumResult}")
