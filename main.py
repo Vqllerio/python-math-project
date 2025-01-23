@@ -1,6 +1,7 @@
 from Fitur.division import calculate_division
 from Fitur.sum import calculate_sum
 from Fitur.difference import calculate_difference
+from Fitur.Product import calculate_product
 
 A = int(input("Masukkan A: "))
 B = int(input("Masukkan B: "))
